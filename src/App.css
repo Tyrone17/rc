@@ -15,12 +15,12 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(9px + 1vmin);
   color: white;
 }
 
@@ -35,4 +35,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.display{
+  padding:3%;
+  margin-block: 3%;
+  margin-left: 33%;
+  max-width: 25%;
+  border-radius:10%;
+  border-style: groove;
+  display: flex;
+  /* column-width: 1vmin; */
+}
+
+.btns {
+  padding:1%;
+  margin-block: 15%;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius:12%;
+  border-style: groove;
+  column-count: 3;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.calculator{
+  text-align: center;
+}
+
+table{
+  margin-left: 40%;
 }
